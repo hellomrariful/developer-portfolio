@@ -28,8 +28,6 @@
     font-size: 20px;
     line-height: 27px;
     text-align: center
-
-    
 }
 
 /* header and navigation styles */
@@ -318,7 +316,7 @@ input {
     margin: 0px 350px;
 }
 
-.header{
+.header {
     background: #FFF8F3;
     max-width: none;
 }
@@ -332,4 +330,20 @@ input {
 
 .btn-primary {
     font-size: 17.3px;
+}
+
+.phone {
+    margin-left: 30px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    left: 460px;
+    top: 589px;
+
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
 }
