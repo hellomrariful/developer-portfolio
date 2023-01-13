@@ -34,7 +34,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -67,12 +67,13 @@ nav li {
     line-height: 116px;
 }
 
-.hi{
+.hi {
     color: #FD6E0A;
     font-weight: 600;
-font-size: 45px;
-color: #474747;
+    font-size: 45px;
+    color: #474747;
 }
+
 .pera {
     font-weight: 400;
     font-size: 18px;
@@ -86,13 +87,14 @@ color: #474747;
 
 }
 
+
 .header {
-    margin-top: 0px;
-    background: #FFF8F3;
-        background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+
 }
+
 
 main {
     max-width: 1140px;
@@ -151,10 +153,10 @@ main {
 
 .what-i-do {
     font-weight: 700;
-font-size: 35px;
-padding-top: 130px;
-padding-bottom: 30px;
-text-align: center;
+    font-size: 35px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .what-i-do .sec-descriptoin {
@@ -219,12 +221,15 @@ text-align: center;
     color: #474747;
     font-weight: 700;
     font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .sub-title {
     color: #757575;
     font-weight: 600;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .resume-description {
@@ -271,22 +276,25 @@ textarea {
     width: 100%;
     padding: 18px 30px;
 }
-input{
+
+input {
     height: 64px;
     width: 150px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
 
 
-.section-description{
+.section-description {
     padding-bottom: 30px;
     margin-bottom: 90px;
 }
-.discription{
+
+.description {
     margin-top: 20px;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -305,6 +313,17 @@ margin-bottom: 30px;
 .banner [class="img"] {
     display: flex;
     align-items: flex-end;
-    margin: 0px 450px;
+    margin: 0px 350px;
 }
-    
+
+.header{
+    background: #FFF8F3;
+    max-width: none;
+}
+
+.header {
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+}
